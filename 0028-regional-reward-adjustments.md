@@ -52,9 +52,9 @@ ___
 ___
 [detailed-explanation]: #detailed-explanation
 
-This proposal will build upon [Hip-17] and introduce scaling in regards to signal fading at different Tx. The [Jan 27 firmware update] revealed a greate inequality in the network deployment incitament. The current effect difference of 27 dBm vs 14 dBm is equivalent to Tx of 500 mW vs 25 mW, which is a 20 fold difference.
+This proposal will build upon [Hip-17] and introduce scaling in regards to signal fading at different Tx. The [Jan 27 firmware update] revealed an inequality in the network deployment incitament. The current effect difference of 27 dBm vs 14 dBm is equivalent to Tx of 500 mW vs 25 mW, which is a 20 fold difference. EU miners use SF12, which has 12dB more coding gain than SF8 which is used by the rest of the world. (-129dBm receiver sensitivity on SF8 125kHz, -141dBm receiver sensitivity on SF12 125kHz taken from Table 3-6: Reference Design Performance in the Semtech SX1320 datasheet).
 
-The following table shows the different signal range  and area coveragefor Europe and USA for different fade margins at receiver sensitivity -126 dBm ([SF8125kHz]):
+The following table shows the different signal range and area coverage for Europe and USA for different fade margins at receiver sensitivity -126 dBm ([SF8125kHz]):
 
 | Fade margin (dB) | Range @14dBm/🇪🇺  (km) | Range @27dBm/🇺🇸  (km) | Range difference factor | Area Coverage @14dBm/🇪🇺  (km^2) | Area Coverage @27dBm/🇺🇸  (km^2) | Area difference factor | Comments |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
