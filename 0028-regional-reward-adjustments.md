@@ -1,6 +1,6 @@
-# HIP27: Regional reward adjustments
+# HIP28: Regional reward adjustments
 
-- Author(s): @mj0lken (Malcolm Horal | Galiot)
+- Author(s): @mj0lken (Malcolm Horal | Galiot), [@mfalkvidd](https://github.com/mfalkvidd) (Mikael Falkvidd | Triot)
 - Start Date: 2021-02-06
 - Category: Technical/RF
 - Original HIP PR: <https://github.com/helium/HIP/pull/XYZ>
