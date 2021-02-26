@@ -25,6 +25,8 @@ ___
 
 Anyone hosting a Helium gateway/miner will be affected by this change.
 
+Anyone who wants wide coverage of the Helium LoRaWAN network will be affected by this change.
+
 Feedback and discussion on this change will be solicited & heard through the existing HIP discussion channel(s) (primarily Discord, in the respective channel),
 and as usual through any git repo commentary.
 
